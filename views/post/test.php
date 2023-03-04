@@ -29,9 +29,6 @@ use vova07\imperavi\Widget;
     </div>
 <?php endif; ?>
 
-
-
-
 <? $form = ActiveForm::begin(['options'=>['id'=> 'test']]);?>
     <?= $form->field($model, 'name')->label('Name');?>
 <?= $form->field($model, 'email')->input('email');?>
